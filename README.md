@@ -27,3 +27,6 @@ The card has 4 types of objects.
 You can move in all four directions (⬅️⬆️⬇️➡️ ), the movement of the agents is synchronized, i.e. if you decide to go right, both agents will try to go right.
 
 ![2021-05-12 01-39-54](https://user-images.githubusercontent.com/53370597/117897609-b2494080-b2b2-11eb-9f04-3181c1a6789a.gif)
+
+‼️ If a blocker is above agent 1 but agent 2 has nothing above it and you decide to go up, you will create an offset.
+![2021-05-12 01-50-09](https://user-images.githubusercontent.com/53370597/117898223-03a5ff80-b2b4-11eb-9fca-832ab417dcfa.gif)
