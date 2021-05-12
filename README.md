@@ -38,3 +38,17 @@ The walls are like teleporters, if you are at the base edge of the map and you g
 Also from right to left.
 
 ![2021-05-12 01-56-30](https://user-images.githubusercontent.com/53370597/117898630-efaecd80-b2b4-11eb-80c5-96da0b2c706b.gif)
+
+# 🧱 Create your own level 🧱 #
+
+To start creating your own levels and try them out or have them tested by the agent, you must go to this link :
+
+## How to create a level ❓
+To create a level you must first choose the size of the grid in length and width (between 1 and 10), then place your obstacles / agents / victory points.
+
+## How to launch the tests ❓
+
+After validating your map 
+
+
+Then you have the choice between two buttons : 🔘 `Your Run`  🔘 `Agent Run`.
