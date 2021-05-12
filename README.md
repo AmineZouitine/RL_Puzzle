@@ -44,7 +44,7 @@ Also from right to left.
 To start creating your own levels and try them out or have them tested by the agent, you must go to this link :
 
 ## How to create a level ❓
-To create a level you must first choose the size of the grid in length and width (between 1 and 10), then place your obstacles / agents / victory points.
+To create a level you must first choose the size of the grid in length and width (between 3 and 10), then place your obstacles / agents / victory points.
 
 ## How to launch the tests ❓
 
