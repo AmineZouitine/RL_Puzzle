@@ -52,3 +52,14 @@ After validating your map
 
 
 Then you have the choice between two buttons : 🔘 `Your Run`  🔘 `Agent Run`.
+
+# 🧠 Agent learning 🧠 #
+
+## 💰 Reward 💰 ##
+
+
+## 👁️ Observation 👁️ ##
+
+## 🦾 Action 🦾  ##
+
+## 🥇 Result 🥇 ##
