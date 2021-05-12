@@ -29,4 +29,12 @@ You can move in all four directions (⬅️⬆️⬇️➡️ ), the movement of
 ![2021-05-12 01-39-54](https://user-images.githubusercontent.com/53370597/117897609-b2494080-b2b2-11eb-9f04-3181c1a6789a.gif)
 
 ‼️ If a blocker is above agent 1 but agent 2 has nothing above it and you decide to go up, you will create an offset.
+
 ![2021-05-12 01-50-09](https://user-images.githubusercontent.com/53370597/117898223-03a5ff80-b2b4-11eb-9fca-832ab417dcfa.gif)
+
+### 🕳️ Teleportation 🕳️ ###
+
+The walls are like teleporters, if you are at the base edge of the map and you go to the bottom, you will be teleported from the top edge (if there is no blocker).
+Also from right to left.
+
+![2021-05-12 01-56-30](https://user-images.githubusercontent.com/53370597/117898630-efaecd80-b2b4-11eb-80c5-96da0b2c706b.gif)
