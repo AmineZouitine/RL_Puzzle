@@ -22,7 +22,7 @@ The card has 4 types of objects.
 
 ## 🕹️ Mechanics of movement 🕹️ ##
 
-### Displacement 
+### 🦿 Displacement 🦿 ###
 
 You can move in all four directions (⬅️⬆️⬇️➡️ ), the movement of the agents is synchronized, i.e. if you decide to go right, both agents will try to go right.
 
