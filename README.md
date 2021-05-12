@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/53370597/117895750-917eec00-b2ae-11eb-
 ## 🔎 Objects 🔍 ##
 The card has 4 types of objects.
 
-* ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) The white box that delimits the map
+* ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) The white box which represents the size of the grid
  
 * ![#1FFF00](https://via.placeholder.com/15/1FFF00/000000?text=+) The agents, 2 in number, who must move to solve the level
 
