@@ -56,10 +56,30 @@ Then you have the choice between two buttons : 🔘 `Your Run`  🔘 `Agent Run`
 # 🧠 Agent learning 🧠 #
 
 ## 💰 Reward 💰 ##
+The reward is extremely simple, at each step I give him <b>0</b> reward, and when he wins the game he gets <b>1</b>.
 
+I didn't want to go for more complex rewards, like for example one that would have given more rewards when the agent's partern resembles the pattern of the victory points, because you can totally switch from an extremely different pattern to the solution especially thanks to teleportation. Moreover I wanted to see how it would go after solving these puzzles without any additional indication.
 
 ## 👁️ Observation 👁️ ##
+I faced the problem that the observation space must remain the same but I want the agent to be able to play on different types of terrain. 
+I saw three methods that were available to me: 
+
+* 👀 Use the sensor perceptions 👀
+* 📷 Use the camera sensor 📷
+* 📝 Give a array of size N that fills the rest of the map with -1 when it is empty 📝
+
+I chose the painting, because it seemed more appropriate to the game.
+
+The observations are : 
+
+* Map Size -> X and Y
+* Position Agent1 and Agent2 -> X1, Y1 and X2, Y2
+* Position Victory1 and Victory2 -> X1, Y1 and X2, Y2
+* Position of N blocker ([0,6]) -> Xn and Yn
+* -1 to fill the array ([6-N] * 2)
+
+Size of the observation = <b>16</b>
 
 ## 🦾 Action 🦾  ##
 
-## 🥇 Result 🥇 ##
+## 📈 Result 📈 ##
