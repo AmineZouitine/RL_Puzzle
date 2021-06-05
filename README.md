@@ -82,4 +82,14 @@ Size of the observation = <b>16</b>
 
 ## 🦾 Action 🦾  ##
 
+The actions are very simple, they are 4 discrete values, which define the 4 movements.
+
+0 -> ⬆️
+1 -> ⬇️ 
+2 -> ➡️
+3 -> ⬅️
+
 ## 📈 Result 📈 ##
+
+Currently my agent is much stronger than a human for puzzle solving, although in some situations where a human would easily see that the situation is solvable in 1 move, the agent does not see it, and takes paths sometimes not optimized.
+
