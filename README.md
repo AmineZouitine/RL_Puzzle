@@ -92,4 +92,8 @@ The actions are very simple, they are 4 discrete values, which define the 4 move
 ## 📈 Result 📈 ##
 
 Currently my agent is much stronger than a human for puzzle solving, although in some situations where a human would easily see that the situation is solvable in 1 move, the agent does not see it, and takes paths sometimes not optimized.
-
+<div align="center">
+ 
+![Capture](https://user-images.githubusercontent.com/53370597/120885199-94d07380-c5df-11eb-892f-bc33163348a9.PNG)
+ 
+ </div>
