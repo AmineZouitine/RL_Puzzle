@@ -1,6 +1,6 @@
 # 🧩 Built puzzles for my Agent  🧩 #
 
-In this project you will be able to create levels for my Agent and see how he can solve them, you also have the possibility to test the levels yourself to compare your score to the Agent's ! 
+In this project, you will be able to create levels for my agent and see how he can solve them; you also can test the levels yourself to compare your score to the agents! 
 
 https://user-images.githubusercontent.com/53370597/117895750-917eec00-b2ae-11eb-8589-b681cc3b02ac.mp4
 
@@ -56,12 +56,13 @@ Then you have the choice between two buttons : 🔘 `Your Run`  🔘 `Agent Run`
 # 🧠 Agent learning 🧠 #
 
 ## 💰 Reward 💰 ##
-The reward is extremely simple, at each step I give him <b>0</b> reward, and when he wins the game he gets <b>1</b>.
+The reward is straightforward; at each step, I give him <b>0</b> rewards, and when he wins the game, he gets <b>1</b>.
 
-I didn't want to go for more complex rewards, like for example one that would have given more rewards when the agent's partern resembles the pattern of the victory points, because you can totally switch from an extremely different pattern to the solution especially thanks to teleportation. Moreover I wanted to see how it would go after solving these puzzles without any additional indication.
+I didn't want to go for more complex rewards, like, for example, one that would have given more rewards when the agent's pattern resembles the pattern of the victory points because you can switch from a highly different pattern to the solution, main thanks to teleportation. Moreover, I wanted to see how it would go after solving these puzzles without any additional indication.
 
 ## 👁️ Observation 👁️ ##
-I faced the problem that the observation space must remain the same but I want the agent to be able to play on different types of terrain. 
+
+I faced the problem that the observation space must remain the same, but I want the agent to play on different types of terrain. 
 I saw three methods that were available to me: 
 
 * 👀 Use the sensor perceptions 👀
@@ -82,7 +83,7 @@ Size of the observation = <b>16</b>
 
 ## 🦾 Action 🦾  ##
 
-The actions are very simple, they are 4 discrete values, which define the 4 movements.
+The actions are very simple, they are <b<4</b> discrete values, which define the <b>4</b> movements.
 
 0 -> ⬆️
 1 -> ⬇️ 
@@ -91,7 +92,7 @@ The actions are very simple, they are 4 discrete values, which define the 4 move
 
 ## 📈 Result 📈 ##
 
-Currently my agent is much stronger than a human for puzzle solving, although in some situations where a human would easily see that the situation is solvable in 1 move, the agent does not see it, and takes paths sometimes not optimized.
+Currently, my agent is much stronger than a human for puzzle solving. However, in some situations where a human would quickly see that the problem is solvable in 1 move, the agent does not see it and takes paths sometimes not optimized.
 <div align="center">
  
 ![Capture](https://user-images.githubusercontent.com/53370597/120885199-94d07380-c5df-11eb-892f-bc33163348a9.PNG)
