@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/53370597/117895750-917eec00-b2ae-11eb-
 # 📚 Rules of the game 📚 #
 
 ## 🔎 Objects 🔍 ##
-The card has 4 types of objects.
+The map has 4 types of objects.
 
 * ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) The white box which represents the size of the grid
  
